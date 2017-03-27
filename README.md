@@ -1,6 +1,6 @@
 # ipt_TRASH
 
-a simple module for iptables to defend DDoS attack.
+a simple module for iptables to defend real connection DDoS attack. (synproxy is better for syn-flood.)
 
 it modify tcp e.g. psh packet to rst, so the server will close the connection while it's client waitting for timeout.
 
